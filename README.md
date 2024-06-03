@@ -11,8 +11,8 @@ https://www.kaggle.com/datasets/christianpartal/credit-card-data
 Features include “Time”, “Amount” (monetary amount of the transaction, in €), and “Class” (which indicates if the transactions are fraudulent or not). Normal, valid transactions will have a value of 0, fraudulent transactions a value of 1.
 There are additional 28 variables related to the user’s bank account, financial behaviour and additional transaction details, which for data privacy have been renamed and anonymized through a Principal Component Analysis (PCA) technique, which transforms the original features into a set of new, anonymous features while still preserving the essential patterns and structures. Therefore these features will just appear as V1, V2,…, V28 in our analysis.
 
-# Machine Learning Models
+## Machine Learning Models
 
 A variety of Jupyer Nothebooks are provided, testing both Supervised and Unsupervised Machine Learning models.
 We adjust them to the specific needs of the analysis and compare the results of each model to decide which is the most appropriate.
-Once trained, the models can be used to predict if future transactions should be considered fraudulent or not. Depending on the institutions' needs, some model variations will be prefered over others.
+Once trained, the models can be used to predict if future transactions should be considered fraudulent or not. Depending on the institutions' particular needs and preferences between precision and recall, some model variations will be more suited than others.
