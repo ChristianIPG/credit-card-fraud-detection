@@ -18,3 +18,4 @@ There are additional 28 variables related to the user’s bank account, financia
 A variety of Jupyer Nothebooks are provided, testing both Supervised and Unsupervised Machine Learning models.
 We adjust them to the specific needs of the analysis and compare the results of each model to decide which is the most appropriate.
 Once trained, the models can be used to predict if future transactions should be considered fraudulent or not. Depending on the institutions' particular needs and preferences between precision and recall, some model variations will be more suited than others.
+Some institutions may prefer to detect fraud at any cost, but thist comes at a greater risk of false positives.
