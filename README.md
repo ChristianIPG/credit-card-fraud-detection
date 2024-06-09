@@ -14,6 +14,8 @@ It contains data on real transactions made using credit cards in September 2013 
 Features include “Time”, “Amount” (monetary amount of the transaction, in €), and “Class” (which indicates if the transactions are fraudulent or not). Normal, valid transactions will have a value of 0, fraudulent transactions a value of 1.
 There are additional 28 variables related to the user’s bank account, financial behaviour and additional transaction details, which for data privacy have been renamed and anonymized through a Principal Component Analysis (PCA) technique, which transforms the original features into a set of new, anonymous features while still preserving the essential patterns and structures. Therefore these features will just appear as V1, V2,…, V28 in the analysis.
 
+If you want to replicate this project entirely, make sure to save the datafile in a folder named 'Dataset' in the same location of the Jupyter Notebooks.
+
 ## Machine Learning Models
 
 A variety of Jupyer Nothebooks are provided, first doing some Exploratory Data Analysis on the data we have, and then testing both Supervised and Unsupervised Machine Learning models which we train to identify fraud.
